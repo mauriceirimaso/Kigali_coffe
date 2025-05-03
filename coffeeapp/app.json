@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "coffeeapp",
+    "slug": "coffeeapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splashphotoes/splash6.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashphotoes/splash5.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "powermode.enabled": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.maurice12.coffeeapp"
+    },
+    "web": {
+      "favicon": "./assets/splashphotoes/splash5.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d46554a3-884c-4905-b2fd-ff951f88342f"
+      }
+    }
+  }
+}
